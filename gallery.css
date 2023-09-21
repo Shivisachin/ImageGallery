@@ -1,14 +1,10 @@
-.neaber{
-    background-color: rgb(164, 102, 123);
-    text-align: end;
-    font-size: xx-large;
-    border: solid black;
-    height: auto;
-    width: 100%; 
+.neaber>a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
 }
-h1{
-    text-align: center;
-}
+
 .container{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -55,4 +51,9 @@ img:hover{
     background-color: gray; 
     border: solid black;
     width: 100%;
+}
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
